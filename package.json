@@ -1,0 +1,14 @@
+{
+  "name": "helloserver",
+  "version": "1.0.0",
+  "description": "This is a simple webserver that always sends a 'hello world' text as a response.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "processenv": "3.0.9"
+  }
+}
