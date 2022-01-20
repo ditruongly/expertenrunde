@@ -18,4 +18,5 @@ git remote remove origin
 git remote add origin https://<TOKEN>@github.com/ditruongly/helloserver.git
 git config --local user.email "ditruongly@gmail.com"
 git config --local user.name "Di Truong Ly"
+git push --set-upstream origin master
 ```
