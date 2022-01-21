@@ -12,4 +12,8 @@ docker run -d -p 3000:3000 -e MESSAGE='Hallo Welt' --name helloserver helloserve
 docker exec -it helloserver sh
 curl http://localhost:3000
 (Invoke-WebRequest 'http://localhost:3000').Content
+
+docker login -u dily
+docker tag helloserver:1.0 dily/helloserver:1.0
+docker push dily/helloserver:1.0
 ```
